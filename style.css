@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(198, 228, 218);
+  
+}
+img {
+    width:120px;
+    border-radius: 100%;
+    height: 100%;
+}
+p{
+    color: brown;
+   
+}
+/*class selector */
+.first_para {
+    color: rgb(223, 21, 227);
+}
+
+.red_apple {
+    background-color: rgb(23, 2, 2);
+    position: relative;
+    top: 40p;
+}
+.red2_apple {
+    background-color: rgb(202, 141, 141);
+}
+/* id selector */
+#special {
+    font-weight: bold;
+    color: rgb(184, 196, 196);
+    background-color: black;
+}
+
+/* grouping these selectors */
+.ekgroup ,h1 {
+    font-weight: bold;   
+    color: rgb(135, 213, 246);
+    background-color: black;
+}
+
+.Firstbox {
+    background-color: rgb(39, 11, 142);
+    height: 100px;
+    width: 100px;
+    /* margin-inline-start: 100px; */
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.secondbox {
+    background-color: rgb(243, 101, 30);
+    height: 100px;
+    width: 100px;
+    /* margin-inline-start: 200px; */
+    position: relative;
+    margin-left: 100px;
+
+   
+}
+.thirdbox {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100px;
+    /* margin-top: -100px; */
+    position: relative;
+    margin-bottom:-90px;
+   margin-left: 50px;
+    
+}
